@@ -47,7 +47,7 @@ background-color:rgb(52,52,52);
 
     width: 20%;
     background-color:rgb(77,77,77);
-    height: 100vh; 
+    height: 300%; 
     position: absolute;
     max-width: 100%;
     text-align: center;
@@ -71,8 +71,9 @@ background-color:rgb(52,52,52);
     font-size: 3vw;
     color: rgb(212,212,212);
     position:absolute;
-   left:50%;
-   margin-top: 25%;
+    left:51%;
+    margin-top: 25%;
+    text-align:center;
     
     
     }
@@ -80,21 +81,26 @@ background-color:rgb(52,52,52);
 
     position:relative;
     margin-top: 30%;
-    left: 33%;
+    left: 26.5%;
     max-width:67%;
     display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap: 10px;
-   
-
+    grid-template-columns:repeat(1, 1fr);
+    gap: 10%;
+    
+    
+    
 }
 
 .grid-item{
+    border-radius: 25px;
+    font-size: 2vw;
+    color:rgb(212,212,212);
+    background-color:rgb(176,148,240);
+    height: 100%;
+    text-align:center;
+    font-family: var(--ff);
+    width: 100%;
 
-      font: var(--ff);
-      font-size: 2vw;
-      color:rgb(212,212,212);
-     
 
 }
 .text{
@@ -103,7 +109,7 @@ background-color:rgb(52,52,52);
    font: var(--ff);
    font-size: 2vw;
    color:rgb(212,212,212);
-    
+   font-family: var(--ff);
 }
 .about{
     font-family: var(--ff);
@@ -114,8 +120,9 @@ background-color:rgb(52,52,52);
    margin-top: 2%;
 }
 .buttons{
-
-
+    
+    width: 95%;
+    height:12.5%;
 
 }
 .me{
@@ -125,6 +132,13 @@ background-color:rgb(52,52,52);
     color: rgb(212,212,212);
     position:relative;
    
+
+
+}
+.grid-image{
+
+height: 60%;
+width: 80%;
 
 
 }

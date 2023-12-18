@@ -83,24 +83,27 @@ background-color:rgb(52,52,52);
     margin-top: 30%;
     left: 26.5%;
     max-width:67%;
-    display:grid;
+    display:flex;
+    flex-direction: column;
     grid-template-columns:repeat(1, 1fr);
     gap: 10%;
+    
     
     
     
 }
 
 .grid-item{
+    margin-top: 50px;
     border-radius: 25px;
     font-size: 2vw;
     color:rgb(212,212,212);
-    background-color:rgb(176,148,240);
+    background-color:rgb(180,180,180);
     height: 100%;
     text-align:center;
     font-family: var(--ff);
     width: 100%;
-
+    
 
 }
 .text{
@@ -141,4 +144,7 @@ height: 60%;
 width: 80%;
 
 
+}
+.container{
+    display: flex;
 }
